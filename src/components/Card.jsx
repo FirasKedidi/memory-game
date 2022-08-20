@@ -10,6 +10,7 @@ const Card = ({card,handleChoice,flipped,disabled}) => {
     return (
         <div className="card">
             <div className={flipped ? "flipped":""}>
+                {/*shape forme geomterique */}
                 <img className="front" src={card.src} alt="card front" />
                 <img className='back' src="/img/background.svg" onClick={handleClick} alt="back" />
             </div>
